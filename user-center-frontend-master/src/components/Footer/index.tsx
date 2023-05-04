@@ -3,7 +3,7 @@ import {DefaultFooter} from '@ant-design/pro-layout';
 import {PLANET_LINK} from "@/constants";
 
 const Footer: React.FC = () => {
-  const defaultMessage = '青蛙出品';
+  const defaultMessage = '兰戈出品';
   const currentYear = new Date().getFullYear();
   return (
     <DefaultFooter
@@ -23,11 +23,16 @@ const Footer: React.FC = () => {
         },
         {
           key: 'github',
-          title: <><GithubOutlined/> 青蛙 GitHub</>,
-          href: '',
+          title: <><GithubOutlined/> Lango GitHub</>,
+          href: 'https://github.com/superLango',
           blankTarget: true,
         },
-
+        {
+          key: '备案号',
+          title: <>陇ICP备2023001048号-1</>,
+          href: 'https://beian.miit.gov.cn',
+          blankTarget: true,
+        },
       ]}
     />
   );

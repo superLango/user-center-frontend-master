@@ -52,8 +52,8 @@ const Register: React.FC = () => {
             }
           }}
           logo={<img alt="logo" src={SYSTEM_LOGO}/>}
-          title="编程导航知识星球"
-          subTitle={<a href={PLANET_LINK} target="_blank" rel="noreferrer">最好的编程学习知识圈子</a>}
+          title="用户管理系统"
+          subTitle={<a href={PLANET_LINK} target="_blank" rel="noreferrer">更多请看知识星球</a>}
           initialValues={{
             autoLogin: true,
           }}
